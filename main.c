@@ -68,6 +68,7 @@ char *getAddress(){
 		address[k] = a;
 		k++;
 	}while(a != '\n');
+	address[k-1] = '\0';
 
 	return address;
 }
